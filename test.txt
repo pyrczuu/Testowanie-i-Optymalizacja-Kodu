@@ -1,6 +1,2 @@
-g
-g
-g
-g
-g
-g
+test
+12
