@@ -25,13 +25,17 @@ Z powodu drastycznej różnicy w czasie pracy, do końca badania wykorzystywana 
 W celu zoptymalizowania czasu pracy oraz dokładności w modelu ResNet50 zastosowane zostało uczenie transferowe. Zabieg ten pozwolił skrócić czas działania o 20% oraz znacznie poprawić dokładność modelu.
 Wyniki bez uczenia transferowego:
 ![image](https://github.com/user-attachments/assets/ba6cfc7c-4981-4881-97e8-be340523a4c3)
+
 Wyniki z uczeniem transferowym:
+
 ![image](https://github.com/user-attachments/assets/440614bb-1f87-408b-bd35-4d901720a7d7)
 
 ## Dalsza optymalizacja dokładności
 ### 1. Normalizacja danych
 W tym celu skala pikseli została zmieniona z 0-255 na 0-1. Oto porównanie wyników działania modelu z zastosowaniem normalizacji oraz bez niej. 
+
 ![image](https://github.com/user-attachments/assets/745785fc-3f9d-4ce7-96f1-058e514e243f)
+
 ![image](https://github.com/user-attachments/assets/763c83b0-dd30-40a9-a626-d82eae95859e)
 
 Z niezrozumiałego mi powodu po normalizacji danych model zaczął ignorować jedną z klas. 
