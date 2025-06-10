@@ -3,6 +3,7 @@
 **Zbiór danych**: 2004 skany MRI glejaka oraz 2004 skany MRI oponiaka, oryginalny zbiór został pozbawiony niezidentyfikowanej klasy 'tumor'. Zbiór został pobrany z [Kaggle](https://www.kaggle.com/datasets/orvile/brain-cancer-mri-dataset).
 **Parametry**:
 Oto standardowe parametry, których wartości były optymalizowane podczas badań. 
+- Model: ResNet50
 - Aktywacja: softmax
 - Seria: 32
 - Epoki: 10
